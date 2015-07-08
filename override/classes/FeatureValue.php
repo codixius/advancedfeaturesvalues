@@ -36,7 +36,7 @@ class FeatureValue extends FeatureValueCore
 			'id_feature' => array('type' => self::TYPE_INT, 'validate' => 'isUnsignedId', 'required' => true),
 			'position' => 	array('type' => self::TYPE_INT, 'validate' => 'isInt'),
 			'custom' => 	array('type' => self::TYPE_BOOL, 'validate' => 'isBool'),
-			'value' => 		array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isGenericName', 'required' => true, 'size' => 255),
+			'value' => 		array('type' => self::TYPE_STRING, 'lang' => true, 'validate' => 'isMessage', 'required' => true, 'size' => 255),
 		),
 	);
 
